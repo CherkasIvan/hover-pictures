@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.figure {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/* big square start */
+.square{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  background-color:#00A2ff;
+  z-index: 5;
+}
+.square:hover{
+  z-index: 15;
+  background-color: gray;
+}
+/* big square finish */
+/* min-sqare start */
+.min-square{
+  position: absolute;
+  top: 37.5%;
+  left: 37.5%;
+  height: 25%;
+  width: 25%;
+  background-color:  #f8ba00;
+  border-radius: 30px;
+  z-index: 10;
+}
+/* min-sqare start */
+.circle{
+  height: 25%;
+  width: 25%;
+  background-color: #EE220C;;
+  border-radius: 50%;
+}
+.circle-bot_left{
+  position: absolute;
+  bottom: 12.5%;
+  left: 12.5%;
+}
+.circle-bot_left:hover{
+  bottom: 5%;
+  left: 5%;
+  height: 35%;
+  width: 35%;
+  background-color: blue;
+  z-index: 20;
+}
+.circle-bot_right{
+  position: absolute;
+  bottom: 12.5%;
+  right: 12.5%;
+}
+.circle-bot_right:hover{
+  bottom: 5%;
+  right: 5%;
+  height: 35%;
+  width: 35%;
+  background-color: green;
+  z-index: 20;
+}
+.circle-top_left{
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+}
+.circle-top_left:hover{
+  top: 5%;
+  left: 5%;
+  height: 35%;
+  width: 35%;
+  background-color: yellowgreen;
+  z-index: 20;
+}
+.circle-top_right{
+  position: absolute;
+  top: 12.5%;
+  right: 12.5%;
+}
+.circle-top_right:hover{
+  top: 5%;
+  right: 5%;
+  height: 35%;
+  width: 35%;
+  background-color: black;
+  z-index: 20;
+}
